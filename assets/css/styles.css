@@ -6,3 +6,82 @@
     }
 
 
+
+/* nav styling */
+
+.nav-border{
+    background-color: #283618;
+    height: 64px;
+}
+
+nav a{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+/* nav img */
+
+nav img{
+    height: 64px;
+}
+
+
+ /* nav flex styles */
+
+@media screen and (min-width: 768px) {
+
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+        gap: 12%;
+        padding-right: 25px;
+    }
+}
+
+ /* hero image styling */
+
+ .hero {
+    /* Sizing */
+    width: 100vw;
+    height: 95vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+    /* Background styles */
+    background-image:url(../images/pexels-stephan-seeber-1261728.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
