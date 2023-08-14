@@ -10,7 +10,7 @@
 /* nav styling */
 
 .nav-border{
-    background-color: #283618;
+    background-color: #DDA15E;
     height: 64px;
 }
 
@@ -84,4 +84,56 @@ nav img{
 .hero h1 {
     font-size: 5em;
     margin-bottom: 0.5em;
+}
+
+ /* discplines utility */
+
+
+ .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 150px;
+    padding: 10%;
+    }
+
+.parent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+ /* discplines images */
+
+.enduro-img{
+    height: 70vh;
+    width: 30;
+}
+
+.downhill-img{
+    height: 70vh;
+}
+
+.dirtjump-img{
+    height: 70vh;
+}
+
+
+ /* discplines content */
+
+.enduro-content{
+    height: 100px;
+    background-color: black;
+}
+
+.downhill-content{
+    height: 100px;
+    background-color: black;
+}
+
+.dirtjump-content{
+    height: 100px;
+    background-color: black;
 }
