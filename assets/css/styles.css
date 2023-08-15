@@ -120,7 +120,7 @@ nav img{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 15px;
-    grid-row-gap: 150px;
+    grid-row-gap: 15px;
     margin:10% 10%;
     }
 
@@ -201,20 +201,20 @@ nav img{
  /* discplines content */
 
 .enduro-content{
-    height: 50vh;
+    height: fit-content;
 
 }
 
 .downhill-content{
-    height: 50vh;
+    height: fit-content;
 
 }
 
 .dirtjump-content{
-    height: 50vh;
+    height: fit-content;
 
 }
 
 /* discplines content */
 
-.parent p{}
+.parent {}
