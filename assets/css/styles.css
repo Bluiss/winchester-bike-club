@@ -89,6 +89,18 @@ nav img{
     margin-bottom: 0.5em;
 }
 
+
+ /* about us */
+
+ .about-us{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+ }
+
+
+
  /* discplines utility */
 
 
