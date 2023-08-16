@@ -237,17 +237,17 @@ body{
  /* discplines images */
 
 .enduro-img{
-    height: 100%;
+    height: 150vh;
     background-color: black;
 }
 
 .downhill-img{
-    height: 100%;
+    height: 150vh;
     background-color: black;
 }
 
 .dirtjump-img{
-    height: 100%;
+    height: 150vh;
     background-color: black;
 }
 
