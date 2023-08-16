@@ -491,7 +491,7 @@ nav img{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 30vw;
+    width: auto;
   }
   
   .fname > input{
@@ -528,9 +528,17 @@ nav img{
       font-weight: 700;
     }
 
-.fname .lname{
-    width: 100%;
+.fname, .lname{
+    float: left;
+    width: 50%;
 }
+
+@media screen and (max-width: 768px) {
+    .fname, .lname{
+        float: left;
+        width: 100%;
+    }
+    }
   
   
   
@@ -583,5 +591,7 @@ nav img{
     }
   
   
+
+    
   
    
