@@ -172,6 +172,14 @@ body{
 }
 
 
+@media screen and (max-width: 425px) {
+    .hero h1 {
+        font-size: 60px;
+    }
+    .hero h2 {
+        font-size: 20px;
+    }
+}
 
 
  /* about us */
