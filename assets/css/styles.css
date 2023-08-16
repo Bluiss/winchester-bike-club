@@ -94,6 +94,8 @@ nav img{
 }
 
 
+
+
  /* about us */
 
  .about-us{
@@ -283,8 +285,7 @@ nav img{
     @media (max-width:768px) {
         .gallery{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2);
         max-width: 75%;
         height:75%;
         }
