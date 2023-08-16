@@ -432,7 +432,13 @@ body{
         .trails{
         display: grid;
         grid-template-columns: 1fr;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        overflow:h;
+        }
 
+        .trails p{
+            font-size: 8px;
         }
     }
 
@@ -441,7 +447,23 @@ body{
         .trails{
         display: grid;
         grid-template-columns: 2fr;
+        grid-row-gap: 5px;
+        }
 
+        .trails p{
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width:1024px) {
+        .trails{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-row-gap: 5px;
+        }
+
+        .trails p{
+            font-size: 16px;
         }
     }
 
@@ -484,14 +506,11 @@ body{
         color: white;
         font-weight: 900;
         width: 100%;
+        overflow: scroll;
+        overflow-wrap: anywhere;
 
       }
 
-
-      .text-trails p{
-        font-size: 14px;
-        max-height: 100%;
-      }
 
 
   /* newsletter hero  img */
