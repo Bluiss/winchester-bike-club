@@ -462,7 +462,6 @@ body{
 
     @media (max-width:768px) {
         .trails{
-        display: grid;
         grid-template-columns: 2fr;
         grid-row-gap: 5px;
         }  
@@ -470,7 +469,6 @@ body{
 
     @media (max-width:1024px) {
         .trails{
-        display: grid;
         grid-template-columns: 2fr;
         grid-row-gap: 5px;
         }       
@@ -478,11 +476,11 @@ body{
 
     @media (min-width:1440px) {
         .trails p{
-            font-size: 20px;
+            font-size: 18px;
         }  
         
         .trails h4{
-            font-size: 24px;
+            font-size: 22px;
         }
     }
 
