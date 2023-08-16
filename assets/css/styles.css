@@ -414,3 +414,174 @@ nav img{
         font-size: 14px;
         max-height: 100%;
       }
+
+
+  /* newsletter hero  img */
+
+  .hero-newsletter{
+    /* Sizing */
+    width: 100%;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+    /* Background styles */
+    background-image:url(../images/daniel-leone-g30P1zcOzXo-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+  /* newsletter form */
+
+.newsletter-form{
+    width: auto;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    transition: 500ms ease all;
+    text-align: left;
+  
+    &:hover{
+        transform: translateY(-3px);
+    }
+  }
+  
+  .form-wrapper{
+    flex-grow: 1;
+  }
+  
+  .image-wrap{
+    max-width: auto;
+    cursor:default;
+    position: relative;
+    overflow: hidden;
+    transition: 500ms ease all;
+    display: block;
+    
+  
+  
+  
+    &:hover{
+        transform: translateY(-4px);
+    }
+  }
+  
+  
+  input{
+      padding:15px;
+      border:0;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+      border-radius:14px;
+      margin:15px 0; 
+      
+  }
+  
+  
+  .form-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+  }
+  
+  .fname > input{
+    border-radius: 14px;
+    background: #D9D9D9;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .lname > input{
+      border-radius: 14px;
+      background-color: #D9D9D9;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  
+    ::placeholder {
+      color: #BEB4A2;
+      opacity: 1; /* Firefox */
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: #BEB4A2;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+     color: #BEB4A2;
+    }
+    
+  
+  .email{
+      width: 100%;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+.fname .lname{
+    width: 100%;
+}
+  
+  
+  
+  .email-wrapper > input{
+      background: #D9D9D9;
+    }
+  
+  .button{
+      background: #F7F2F4;
+      width: 75%;
+      color: black;
+      font-size: 24px;
+      font-weight: 700;
+      border-radius: 14px;
+    }
+  
+    .button {
+      transition-duration: 0.4s;
+    }
+    
+    .button:hover {
+      background-color:#FEFEFC;
+      color: black;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      cursor: pointer;
+      border-radius: 14px;
+    }
+  
+    .button-wrapper{
+      text-align: center;
+    }
+  
+  
+    @media screen and (max-width: 425px) {
+      .fname > input{
+        font-size: 15px;
+      }
+      
+      .lname > input{
+          font-size: 15px;
+        }
+      
+      .email{
+          font-size: 15px;
+        }
+  
+      .button{
+        font-size: 15px;
+      }
+    }
+  
+  
+  
+   
