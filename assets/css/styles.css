@@ -428,6 +428,11 @@ body{
     }
 
 
+    .trails p{
+        font-size: 16px;
+    }
+
+
     @media (max-width:425px) {
         .trails{
         display: grid;
@@ -437,7 +442,7 @@ body{
         }
 
         .trails p{
-            font-size: 8px;
+            font-size: 12px;
         }
     }
 
@@ -447,11 +452,7 @@ body{
         display: grid;
         grid-template-columns: 2fr;
         grid-row-gap: 5px;
-        }
-
-        .trails p{
-            font-size: 14px;
-        }
+        }  
     }
 
     @media (max-width:1024px) {
@@ -459,13 +460,20 @@ body{
         display: grid;
         grid-template-columns: 2fr;
         grid-row-gap: 5px;
-        }
+        }       
+    }
 
+    @media (min-width:1440px) {
         .trails p{
-            font-size: 16px;
+            font-size: 20px;
+        }  
+        
+        .trails h4{
+            font-size: 24px;
         }
     }
 
+  
   /* trails hero images overlay  */
 
     .container-img-trails {
