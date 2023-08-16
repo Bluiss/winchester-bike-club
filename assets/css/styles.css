@@ -315,8 +315,6 @@ nav img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    background-color: black;
-    height: 100%;
     }
 
     .trails img{
@@ -324,6 +322,32 @@ nav img{
         height: 100%;
         object-fit: cover;
         overflow: hidden;
+    }
+
+
+    .tidworth-img{
+        background-color: black;
+        height: 100%;
+    }
+
+    .windhill-img{
+        background-color: black;
+        height: 100%;
+    }
+
+    .rogate-img{
+        background-color: black;
+        height: 100%;
+    }
+
+
+    @media (max-width:425px) {
+        .trails{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+
+        }
     }
 
   /* trails hero images overlay  */
