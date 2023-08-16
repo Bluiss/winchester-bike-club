@@ -13,16 +13,17 @@ body{
 /* nav styling */
 
 .nav-border{
-    background-color: #A4AC86;
+    background-color: #FEFAE0;
     height: 64px;
 }
 
 nav a{
     color: black;
     text-align: center;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
+
     
 }
 
@@ -55,6 +56,7 @@ nav img{
         justify-content: flex-end;
         gap: 12%;
         padding-right: 25px;
+        padding-top: 13px;
     }
 }
 
@@ -304,3 +306,70 @@ nav img{
         font-weight: bold;
     }
 }
+
+
+
+  /* trails hero images  */
+
+  .trails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    background-color: black;
+    height: 100%;
+    }
+
+    .trails img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+  /* trails hero images overlay  */
+
+    .container-img-trails {
+        position: relative;
+    
+      }
+    
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+    .middle-trails {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .container-img-trails:hover .image {
+        opacity: 0.3;
+      }
+      
+      .container-img-trails:hover .middle {
+        opacity: 1;
+      }
+      
+      .text-trails {
+        color: white;
+        font-weight: 900;
+        width: 100%;
+
+      }
+
+
+      .text-trails p{
+        font-size: 14px;
+        max-height: 100%;
+      }
