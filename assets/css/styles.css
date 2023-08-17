@@ -333,7 +333,7 @@ body{
     display: grid;
     gap: var(--g);
     width: 80%;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     grid-template-columns: repeat(3,auto);
     margin: auto;
   }
@@ -373,7 +373,6 @@ body{
     @media (max-width:768px) {
         .gallery{
         display: grid;
-        grid-template-columns: repeat(2);
         max-width: 75%;
         height:75%;
         }
@@ -396,13 +395,13 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 5% 0 1% 0 ;
-    font-size: 36px;
+    font-size: 36px;}
     
 
-    :hover{
+     i:hover {
         font-weight: bold;
     }
-}
+
 
 .socials i{
     color: 	#2F4858;
@@ -565,31 +564,15 @@ body{
     position: relative;
     overflow: hidden;
     transition: 500ms ease all;
-    text-align: left;
+    text-align: left;}
   
-    &:hover{
+    input :hover{
         transform: translateY(-3px);
     }
-  }
+  
   
   .form-wrapper{
     flex-grow: 1;
-  }
-  
-  .image-wrap{
-    max-width: auto;
-    cursor:default;
-    position: relative;
-    overflow: hidden;
-    transition: 500ms ease all;
-    display: block;
-    
-  
-  
-  
-    &:hover{
-        transform: translateY(-4px);
-    }
   }
   
   
