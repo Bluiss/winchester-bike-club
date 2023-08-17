@@ -780,7 +780,7 @@ body{
       text-align: center;
       
       /* Background styles */
-      background-image:url(../images/pexels-stephan-seeber-1261728.jpg);
+      background-image:url(../images/photo-1682686578023-dc680e7a3aeb.avif);
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -791,6 +791,9 @@ body{
   }
   
   .hero-404 h1 {
-      font-size: 5em;
+      font-size: 2em;
       margin-bottom: 0.5em;
+  }
+  .hero-404{
+    font-size: 1em;
   }
