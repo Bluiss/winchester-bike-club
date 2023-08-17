@@ -111,13 +111,31 @@ This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+The website is comprised of three pages which are accessible from the navigation menu (home page, trails & newsletter). 
+•	All Pages on the website have:
+o	A responsive navigation bar at the top of all pages, allows the user to navigate through the site. To the left of the navigation bar is an image of WMTB club’s logo. To the right of the navigation bar are the links to the site’s pages (home page, trails & newsletter). 
+To allow a good user experience of the site, when viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+Reference - https://codepen.io/alvarotrigo/pen/MWEJEWG 
+o	A footer which contains social media icon links to Instagram, Twitter, YouTube & Facebook. Icons were used to keep the footer clean and because they are universally recognisable.
+•	Home Page.
+-	Hero image that states the club’s moto and main header 
+- 	Reference - https://codetheweb.blog/fullscreen-image-hero/ - hero image
+-	About Us Section. – Gives and overview of the clubs’ goals and how it can help both new and old riders. Also explains the purpose of the club
+-	3 images with explanations, going over the different disciplines (Enduro, Downhill, Dirt Jump) with an overlay header
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+•	Trails Page
+-	3 hero images with an overlay header, that explains local trails.
+-	Gallery of various images pulled from royalty free sites.
+
+•	Newsletter
+-	Simple form for users to sign up and receive a newsletter 
+
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+•	Future Implementations.
+-   Create a login so users can upload their own images
+
 
 ### Accessibility
 
