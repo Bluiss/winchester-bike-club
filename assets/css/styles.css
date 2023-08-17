@@ -219,6 +219,14 @@ body{
 
     }
 
+
+    @media (max-width:768px) {
+      .parent{
+      grid-template-columns: 2fr;
+      grid-row-gap: 5px;
+      }  
+  }
+
     @media (max-width:425px) {
         .parent{
         display: grid;
