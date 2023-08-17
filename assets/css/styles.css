@@ -213,7 +213,11 @@ body{
     }
 
 .about-us p{
-    padding-top: 1%;
+    padding: 2%;
+}
+
+.about-us h2{
+  padding: 3%;
 }
 
  /* discplines utility */
@@ -241,15 +245,14 @@ body{
         .parent{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
-
+        grid-template-rows: repeat(3, 1fr);
         }
     }
 
 
 .parent img{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     overflow: hidden;
 }
@@ -323,11 +326,17 @@ body{
 .downhill-content{
     height: fit-content;
 
+
 }
 
 .dirtjump-content{
     height: fit-content;
+}
 
+@media (max-width:768px) {
+  .dirtjump-content, .downhill-content, .enduro-content{
+      padding-top: 100px;
+  }
 }
 
 /* discplines carousel */
