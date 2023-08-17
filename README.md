@@ -71,38 +71,37 @@ Frequent Visitor Goals
 -	To use the site for recommendations on new trails
 
 ## Design
-
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
-
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+![Alt text](<Color Pallet .png>)
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+Google Fonts was used for the following fonts:
+-	'DM Sans', sans-serif / For all text
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+Written content was generated using Chat GPT:
+    - About us 
+    - Discplines 
+    - Trails descriptions
 
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+All images were sourced from: 
+-	https://www.pexels.com/
+-	https://unsplash.com/
+
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+Wireframes were created for mobile, tablet and desktop.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+/../assets/docs/wireframes/Home-Page.png
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+/../assets/docs/wireframes/newsletter .png
+
+/../assets/docs/wireframes/trails .png
 
 ## Features
 
