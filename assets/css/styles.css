@@ -48,6 +48,16 @@ body{
   .menu a{
     color: black;
   }
+
+  .top-nav a:hover{
+    text-decoration: underline;
+}
+
+.active{
+  text-decoration: underline;
+}
+
+
   
   .menu > li {
     margin: 0 1rem;
