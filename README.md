@@ -1,14 +1,12 @@
 Winchester Mountain Bike Club 
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
-
 Winchester mountain bike club is a page designed to be a responsive and intuitive site that allows users to view different styles of riding and local trails to the south of England. 
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+![view of site through amiresponsive.com](image.png)
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+https://bluiss.github.io/winchester-bike-club/index.html
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+
 
 ---
 
@@ -50,11 +48,27 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
-### User Stories
-
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+👩🏻‍💻 Initial Discussion
+Winchester Mountain Bike Club (WMTB) is an online site dedicated to the various biking disciplines and trails surrounding the south of England, more specifically Winchester. Users are able to view different definitions of riding and a wide range of images associated with the styles, and sign up to a newsletter that goes over the latest news an updates within the MTB world.
+Key information for the site
+-	3 types of mountain biking 
+-	Local trails and bike parks
+-	How to sign up for a newsletter 
+-	Gallery showing off local trails and what to expect
+-	About us section stating the reason behind the site
+User Stories
+Client Goals
+-	To be able to view all pages on a variety of devices 
+-	To make it easy for users to sign up to the newsletter
+-	Make it clear for users to view new photos and explanations of local trails
+First Time Visitor Goals
+-	For new users to understand the different types of trails and styles
+-	To be able to navigate the website easily across all devices
+-	To be able to find all social links easily
+Returning Visitor Goals
+-	 Find any new information on trails or the gallery
+Frequent Visitor Goals
+-	To use the site for recommendations on new trails
 
 ## Design
 
