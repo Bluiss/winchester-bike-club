@@ -725,6 +725,39 @@ body{
   
   
 
+    /* landing page */
+
+
+    .landing-header{
+      text-align: center;
+      margin: 3%;
+      font-size: 38px;
+    }
+
+    .landing-img{
+      text-align: center;
+    }
     
-  
-   
+    .landing-img img{
+      width: auto;
+      height: 20vh;
+      object-fit: cover;
+      overflow: hidden;
+    }
+
+    .landingcontent{
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .clickthrough{
+      position: absolute;
+      width: 100%;
+      top: 125%;
+      left: 50%;
+      transform: translate(-50%, 125%);
+    }
