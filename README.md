@@ -105,10 +105,6 @@ Wireframes were created for mobile, tablet and desktop.
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
-
 ### General features on each page
 
 The website is comprised of three pages which are accessible from the navigation menu (home page, trails & newsletter). 
@@ -129,6 +125,12 @@ o	A footer which contains social media icon links to Instagram, Twitter, YouTube
 
 •	Newsletter
 -	Simple form for users to sign up and receive a newsletter 
+
+•	Landing page 
+-	Simple landing page that thanks users for signing up and directs them back to home page
+
+•	Error 404
+-	Page to explain when there as been a 404 error, directs users back to home page 
 
 
 ### Future Implementations
