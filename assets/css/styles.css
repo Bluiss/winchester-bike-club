@@ -180,9 +180,13 @@ body{
 
 .hero h1 {
     font-size: 5em;
-    margin-bottom: 0.5em;
+
 }
 
+.hero h1, h2{
+  color: #464d66;
+  padding-bottom: 10%;
+}
 
 @media screen and (max-width: 425px) {
     .hero h1 {
