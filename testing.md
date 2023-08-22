@@ -29,13 +29,21 @@ If you want to add optional shields.io badges to your TESTING file, I like to ad
 
 ## AUTOMATED TESTING
 
-The Automated Testing includes all the testing that is carried out by a program, like W3C HTML validation.
-
 ###  W3C Validator
 
-👩🏻‍💻 View an example of a completed W3C HTML & CSS validation section [here](https://github.com/kera-cudmore/TheQuizArms/blob/main/TESTING.md#W3C-Validator)
+W3C was used to validate the HTML on all pages of the website. It was also used to validate the CSS. I have checked the HTML via direct input and also by inspecting the page source and running this through the validator.
 
-The most popular HTML validator is [W3C](https://validator.w3.org/). There are two ways to validate the HTML for your first milestone - you can copy the live link for your site page and paste into the validate by URI field, or you can copy all the code for your page and paste this into the validate by direct input field.
+Index - No errors or warnings.
+
+Trails -No errors or warnings.
+
+Newsletter - No errors or warnings.
+
+Landingpage - No errors or warnings.
+
+Error 404 - No errors or warnings.
+
+CSS - No errors or warnings.
 
 #### **URI Input**
 

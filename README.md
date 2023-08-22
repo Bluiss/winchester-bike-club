@@ -73,7 +73,7 @@ Frequent Visitor Goals
 ## Design
 ### Colour Scheme
 
-![Alt text](<Color Pallet .png>)
+![Alt text](<color-pallet .png>)
 
 ### Typography
 
@@ -84,6 +84,8 @@ Written content was generated using Chat GPT:
     - About us 
     - Discplines 
     - Trails descriptions
+    - Landing page 
+    - Error 404
 
 
 ### Imagery
@@ -91,17 +93,18 @@ Written content was generated using Chat GPT:
 All images were sourced from: 
 -	https://www.pexels.com/
 -	https://unsplash.com/
+- https://www.freeconvert.com/
 
 
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop.
 
-/../assets/docs/wireframes/Home-Page.png
+![/../assets/docs/wireframes/Home-Page.png](<assets/docs/wireframes/home-page .png>)
 
-/../assets/docs/wireframes/newsletter .png
+![/../assets/docs/wireframes/newsletter .png](<assets/docs/wireframes/newsletter .png>)
 
-/../assets/docs/wireframes/trails .png
+![/../assets/docs/wireframes/trails .png](<assets/docs/wireframes/trails .png>)
 
 ## Features
 
@@ -109,10 +112,14 @@ Wireframes were created for mobile, tablet and desktop.
 
 The website is comprised of three pages which are accessible from the navigation menu (home page, trails & newsletter). 
 •	All Pages on the website have:
-o	A responsive navigation bar at the top of all pages, allows the user to navigate through the site. To the left of the navigation bar is an image of WMTB club’s logo. To the right of the navigation bar are the links to the site’s pages (home page, trails & newsletter). 
+
+•	A responsive navigation bar at the top of all pages, allows the user to navigate through the site. To the left of the navigation bar is an image of WMTB club’s logo. To the right of the navigation bar are the links to the site’s pages (home page, trails & newsletter). 
 To allow a good user experience of the site, when viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+
 Reference - https://codepen.io/alvarotrigo/pen/MWEJEWG 
-o	A footer which contains social media icon links to Instagram, Twitter, YouTube & Facebook. Icons were used to keep the footer clean and because they are universally recognisable.
+
+A footer which contains social media icon links to Instagram, Twitter, YouTube & Facebook. Icons were used to keep the footer clean and because they are universally recognisable.
+
 •	Home Page.
 -	Hero image that states the club’s moto and main header 
 - 	Reference - https://codetheweb.blog/fullscreen-image-hero/ - hero image
@@ -210,11 +217,7 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+See full testing doc - [testing](testing.md)
 
 ## Credits
 
