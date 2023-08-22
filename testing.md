@@ -49,19 +49,21 @@ CSS - No errors or warnings.
 
 If you validate with your sites URL, you can run the validation and then copy the link from the address bar and insert the link here as your proof of validation.
 
-![W3C URI Validator](documentation/milestone1-testing/w3c-uri-validatation.png)
+Index - https://validator.w3.org/nu/?doc=https%3A%2F%2Fbluiss.github.io%2Fwinchester-bike-club%2F
 
-#### **Direct Input**
+Trails - https://validator.w3.org/nu/?doc=https%3A%2F%2Fbluiss.github.io%2Fwinchester-bike-club%2Ftrails.html
 
-If you validate with the code, you will need to screenshot the validation results and then link the image here.
+Newsletter - https://bluiss.github.io/winchester-bike-club/newsletter.html
 
-![W3C Direct Input Validator](documentation/milestone1-testing/w3c-directinput-validation.png)
+Landingpage - https://validator.w3.org/nu/?doc=https%3A%2F%2Fbluiss.github.io%2Fwinchester-bike-club%2Flandingpage.html%3Ffirst-name%3DHarry%26last-name%3DBritton%26email-address%3Dharrydbritton%2540gmail.com
+
+Error 404 - https://validator.w3.org/nu/?doc=https%3A%2F%2Fbluiss.github.io%2Fwinchester-bike-club%2F404
 
 #### **CSS Validation**
 
 CSS Validation can only be done by copying and pasting the CSS file contents into the direct input. Make sure that the checkbox for CSS is selected.
 
-![W3C CSS Validation](documentation/milestone1-testing/w3c-css-validation.png)
+![!\[W3C CSS Validation\](documentation/milestone1-testing/w3c-css-validation.png)](assets/docs/wireframes/css-validator.png)
 
 ### Lighthouse
 
