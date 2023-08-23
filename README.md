@@ -67,8 +67,7 @@ Key information for the site
 -	To be able to find all social links easily
 # Returning Visitor Goals
 -	 Find any new information on trails or the gallery
-# Frequent Visitor Goals
--	To use the site for recommendations on new trails
+
 
 
 

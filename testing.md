@@ -89,15 +89,59 @@ You will need to run the Lighthouse testing on each individual page of your site
 
 ### Testing User Stories
 
-👩🏻‍💻 View an example of a completed user stories testing section [here](https://github.com/kera-cudmore/BookWorm/blob/main/TESTING.md#Testing-User-Stories)
-
-This is where you will test the user stories you created in the README against your site. I like to use a table for this section - I create a column for the user stories goals, how these have been achieved and I use the third column to add any supporting images.
+| Goals                                                                          | How are they achieved?                                                                    |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Client Goals                                                                   |                                                                                           |
+| \- To be able to view all pages on a variety of devices                        | A description of what the site is is included on the home page and across all devices     |
+| \- To make it easy for users to sign up to the newsletter                      | The description on the home page encourages new users to register for a newsletter        |
+| \- Make it clear for users to view new photos and explanations of local trails | The trails section displays both local trails with images                                 |
+| First Time Visitor Goals                                                       |                                                                                           |
+| \- For new users to understand the different types of trails and styles        | Styles and trails are clearly labelled                                                    |
+| \- To be able to navigate the website easily across all devices                | On mobile devices the nav bar becomes a hambuger menu                                     |
+| \- To be able to find all social links easily                                  | On all pages they're labelled at the bottom                                               |
+| Returning Visitor Goals                                                        |                                                                                           |
+| \-  Find any new information on trails or the gallery                          | The location never changes so when it would updated returning users would see new content |
 
 ### Full Testing
 
-👩🏻‍💻 View an example of a completed full testing section [here](https://github.com/kera-cudmore/TheQuizArms/blob/main/TESTING.md#Full-Testing)
+Full testing was performed on the following devices:
 
-Full testing can be tedious, so it is great to try and break this part up into smaller chunks and do a bit at a time. Full testing is when you go through the site and test every single thing that can be tested. So for example you would test that all links in the navbar correctly redirect the user to where there are supposed to go. A table is the perfect way to display this information.
+* Desktop 
+  * 27 Inch 1440p Monitor 
+  * 24 Inch 1080p Monitor 
+* Laptop:
+  * Macbook Pro 2021 13 inch screen
+* Mobile Devices:
+  * iPhone 13 pro.
+  * iPhone 11 pro.
+  * Phone X.
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+
+| Feature                   | Expected Outcome                                                 | Testing Performed  | Result                       | Pass/Fail |
+| ------------------------- | ---------------------------------------------------------------- | ------------------ | ---------------------------- | --------- |
+| Navbar                    |                                                                  |                    |                              |           |
+| Home Page Link            | When clicked the user will be redirected to the home page.       | Clicked link       | Redirected to the home page. | Pass      |
+| Trails Link               | When clicked the user will be redirected to the trails page.     | Clicked link       | Redirected to the home page. | Pass      |
+| Newsletter Link           | When clicked the user will be redirected to the newsletter page. | Clicked link       | Redirected to the home page. | Pass      |
+| Footer                    |                                                                  |                    |                              |           |
+| Social Icons              | When clicked the user will be redirected to the associated links | Clicked link       | Redirected to the home page. | Pass      |
+| Home Page                 |                                                                  |                    |                              |           |
+| Discplines titles         | Overlay shows when hovered                                       | Hoverd over        | Shows title                  | Pass      |
+| Trails Page               |                                                                  |                    |                              |           |
+| Trails content            | Overlay shows when hovered                                       | Hoverd over        | Shows trail information      | Pass      |
+| Gallery                   | Resposnive and interactive zoom feature                          | Hoverd over        | Zooms in on images           | Pass      |
+| News Letter Page          |                                                                  |                    |                              |           |
+| Form                      | Form directs to proper landing page                              | Entered plain text | Redirected to Landing page   | Pass      |
+| First name input          | Input required to submit form                                    | Entered plain text | Redirected to Landing page   | Pass      |
+| Last name input           | Input required to submit form                                    | Entered plain text | Redirected to Landing page   | Pass      |
+| Email Input               | Input required to submit form                                    | Entered plain text | Redirected to Landing page   | Pass      |
+| Homepage redirection link | Redirected to homepage                                           | Clicked link       | Redirected to hoempage       | Pass      |
+| Error 404                 |                                                                  |                    |                              |           |
+| Homepage redirection link | Redirected to homepage                                           | Clicked link       | Redirected to hoempage       | Pass      |
 
 ## BUGS
 
