@@ -2,7 +2,7 @@ Winchester Mountain Bike Club
 
 Winchester mountain bike club is a page designed to be a responsive and intuitive site that allows users to view different styles of riding and local trails to the south of England. 
 
-![view of site through amiresponsive.com](image.png)
+![!\[view of site through amiresponsive.com\](image.png)](assets/docs/wireframes/image.png)
 
 https://bluiss.github.io/winchester-bike-club/index.html
 
@@ -56,24 +56,28 @@ Key information for the site
 -	How to sign up for a newsletter 
 -	Gallery showing off local trails and what to expect
 -	About us section stating the reason behind the site
-User Stories
-Client Goals
+## User Stories
+# Client Goals
 -	To be able to view all pages on a variety of devices 
 -	To make it easy for users to sign up to the newsletter
 -	Make it clear for users to view new photos and explanations of local trails
-First Time Visitor Goals
+# First Time Visitor Goals
 -	For new users to understand the different types of trails and styles
 -	To be able to navigate the website easily across all devices
 -	To be able to find all social links easily
-Returning Visitor Goals
+# Returning Visitor Goals
 -	 Find any new information on trails or the gallery
-Frequent Visitor Goals
+# Frequent Visitor Goals
 -	To use the site for recommendations on new trails
+
+
+
+
 
 ## Design
 ### Colour Scheme
 
-![Alt text](<color-pallet .png>)
+![!\[color pallet\](<color-pallet .png>)](<assets/docs/wireframes/color-pallet .png>)
 
 ### Typography
 
