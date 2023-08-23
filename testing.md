@@ -145,12 +145,18 @@ Each device tested the site using the following browsers:
 
 ## BUGS
 
-### Known Bugs
-
-List (or put in a table) all known bugs on your site here as soon as you find them. This will prevent you from forgetting any at the end. Some (if not all) of these bugs will hopefully make their way over to the next section, solved bugs, as you progress through your project.
-
 ### Solved Bugs
 
-👩🏻‍💻View an example of a completed bugs section [here](https://github.com/kera-cudmore/BookWorm/blob/main/TESTING.md#BUGS)
+| No | Bug                                                                                                     | How I solved the Issue                                                            |
+| -- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1  | Text within the trails images was not responsive to change in width and would overflow out of container | Separate media queries for different screen sizes, font size ranging from 16-12px |
+| 2  | The nav element would be behind an image when viewing the trails page one mobiles                       | Positioned top nav class with:                                                    |
+| 3  | 404 page not displaying CSS styling                                                                     | Htaccess page was not formatted correctly                                         |
+| 4  | Lighthouse performance was significantly lower than acceptable                                          | Had to compress and convert images into                                           |
+| 5  | Too much white space around index content and images                                                    | Removed grid row attribute and increased padding on smaller screens               |
 
-This is where all solved bugs go once squashed. List what the bug was, and how you managed to fix it. You can also include images/videos here if you wanted.
+### Known Bugs
+
+| No | Bug                                                                                                     | 
+|    | ------------------------------------------------------------------------------------------------------- | 
+| 1  | Performance is still lower than ideal due to images not compressing properly | 
