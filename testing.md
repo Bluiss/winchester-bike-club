@@ -69,9 +69,25 @@ CSS Validation can only be done by copying and pasting the CSS file contents int
 
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-## Index 
+### Index 
 
+![Homepage Lighthouse Report](assets/docs/lighthouse/homepage.png) 
 
+### Trails 
+
+![Trails Lighthouse Report](assets/docs/lighthouse/trails.png)
+
+### Newsletter
+
+![newsletter Lighthouse Report](assets/docs/lighthouse/newsletter.png)
+
+### Landingpage
+
+![Landingpage Lighthouse Report](assets/docs/lighthouse/landingpage.png)
+
+### Suggestions
+
+Overall perfomrance was not great, I had tried to convert the format and compress the images but this had minimal impact 
 
 ## MANUAL TESTING
 
@@ -146,4 +162,4 @@ Each device tested the site using the following browsers:
 
 | No | Bug                                                                                                     | 
 |    | ------------------------------------------------------------------------------------------------------- | 
-| 1  | Performance is still lower than ideal due to images not compressing properly | 
+| 1  | Performance is still lower than ideal due to images not compressing properly                            | 
