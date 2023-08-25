@@ -131,7 +131,7 @@ A footer which contains social media icon links to Instagram, Twitter, YouTube &
 
 •	Trails Page
 -	3 hero images with an overlay header, that explains local trails.
--	Gallery of various images pulled from royalty free sites.
+-	Gallery of various images pulled from royalty free sites. (https://css-tricks.com/zooming-images-in-a-grid-layout/)
 
 •	Newsletter
 -	Simple form for users to sign up and receive a newsletter 
@@ -224,22 +224,19 @@ See full testing doc - [testing](testing.md)
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
+https://codepen.io/alvarotrigo/pen/MWEJEWG - Top nav hamburger 
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
+https://codetheweb.blog/fullscreen-image-hero/ - Hero image
 
-### Code Used
+https://css-tricks.com/zooming-images-in-a-grid-layout/ - Gallery
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Chat GPT was used to create the content only, throughout the site
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+-	https://www.pexels.com/
+-	https://unsplash.com/
   
-###  Acknowledgments
-
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
