@@ -67,23 +67,11 @@ CSS Validation can only be done by copying and pasting the CSS file contents int
 
 ### Lighthouse
 
-👩🏻‍💻 View an example of a completed lighthouse testing section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022/blob/main/TESTING.md#Lighthouse)
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-Lighthouse Testing is part of the Chrome Developer Tools. For more information on how to use this tool, please visit [chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en#:~:text=Lighthouse%20is%20an%20open%2Dsource,how%20well%20the%20page%20did.).
+## Index 
 
-You will need to run the Lighthouse testing on each individual page of your site, for desktop as a minimum. If you have time it would be great to also add in the mobile testing.
 
-![Lighthouse Testing](documentation/milestone1-testing/lighthouse.png)
-
-### WAVE
-
-👩🏻‍💻 View an example of a completed WAVE testing section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022/blob/main/TESTING.md#WAVE)
-
-[WAVE](https://wave.webaim.org/) is an accessibility testing tool. I like to run this on each page of my site and take a screenshot of the results to add here. They have a website for testing and a Chrome extension.
-
-![Wave Desktop](documentation/milestone1-testing/wave-desktop.png)
-
-![Wave Exetension](documentation/milestone1-testing/wqave-extension.png)
 
 ## MANUAL TESTING
 
@@ -112,9 +100,8 @@ Full testing was performed on the following devices:
 * Laptop:
   * Macbook Pro 2021 13 inch screen
 * Mobile Devices:
-  * iPhone 13 pro.
-  * iPhone 11 pro.
-  * Phone X.
+  * iPhone 14 pro.
+  * iPhone 12 pro.
 
 Each device tested the site using the following browsers:
 
